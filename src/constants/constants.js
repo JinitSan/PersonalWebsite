@@ -1,0 +1,85 @@
+export const projects = [
+  {
+    title: 'MERN Memories',
+    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      image: '/images/1.png',
+      tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 0,
+  },
+  {
+    title: 'E-Commerce',
+    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    image: '/images/2.png',
+    tags: ['React', 'JavaScript'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 1,
+  },
+  {
+    title: 'WebRTC App',
+    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      image: '/images/3.jpg',
+      tags: ['React', 'WebRTC'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Unichat',
+    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    image: '/images/4.jpg',
+    tags: ['React', 'ChatEngine', 'Firebase'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 3,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2017, text: 'Started my journey', },
+  { year: 2018, text: 'Worked as a freelance developer', },
+  { year: 2019, text: 'Founded JavaScript Mastery', },
+  { year: 2020, text: 'Shared my projects with the world', },
+  { year: 2021, text: 'Started my own platform', },
+];
+
+export const ExperienceData = [
+    {
+        title: 'Summer Analyst',
+        Company: "Goldman Sachs",
+        image: '/images/GS.png',
+        description: "Worked on a backend and data pipelining project using Java, Spring Boot and Kafka",
+        date:"June 2021 to August 2021",
+        tags: ['Java','Spring Boot','Kafka'],
+        id: 0,
+    },
+    {
+        title: 'Computer Vision Intern',
+        Company: "AISeon Healthcare Technologies",
+        image: '/images/aiseon.jpeg',
+        description: "Worked on segmentation of retina images to find hard exudates, haemorrhages, etc. Used and implemented novel deep learning architectures for this task.",
+        date:"July 2019 to August 2019",
+        tags: ['Python','OpenCV','Computer Vision'],
+        id: 1,
+    },
+    {
+        title: 'Deep Learning Intern',
+        Company: "National University of Singapore",
+        image: '/images/nus.jpeg',
+        description: "Worked on different Machine Learning and Deep Learning algorithms with a group project in the domain of NLP and Deep Learning. Joint internship with Hewlett Packard Enterprises.",
+        date:"June 2019 to July 2019",
+        tags: ['Machine Learning','Deep Learning','NLP'],
+        id: 2,
+    },
+    {
+        title: 'Big Data Intern',
+        Company: "Hewlett Packard",
+        image: '/images/hp.png',
+        description: "Worked on Big Data technologies such as Hadoop, Spark, Hive, etc and used these technologies to complete a group project. Joint internship with National University of Singapore.",
+        date:"June 2019 to July 2019",
+        tags: ['Big Data','Hadoop','Spark'],
+        id: 3,
+    },
+]
