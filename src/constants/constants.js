@@ -31,11 +31,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { pursuit:"Music", text: 'A guitar player with a penchant for genres like rock, blues and jazz.', },
+  { pursuit:"Debating", text: 'An avid debater with experience in Parliamentary Debates, always up for a conversation related to economics, philosophy, etc', },
+  { pursuit: "Fitness Enthusiast", text: 'I love working out and pushing my physical limits.', },
 ];
 
 export const ExperienceData = [

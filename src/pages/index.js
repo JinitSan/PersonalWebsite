@@ -21,7 +21,6 @@ const Home = () => {
         <Projects />
         <Skills />
         <Timeline />
-        <Acomplishments />
     </Layout>
     );
 };
